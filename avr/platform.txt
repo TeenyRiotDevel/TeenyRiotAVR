@@ -97,6 +97,7 @@ tools.avrdude.upload.pattern="{cmd.path}" "-C{config.path}" {upload.verbose} -p{
 
 #for micronucleus bootloader
 
+tools.micronucleus.path={runtime.platform.path}/tools/micronucleus
 tools.micronucleus.cmd.path={path}/{runtime.os}/launcher
 
 tools.micronucleus.upload.params.verbose=
