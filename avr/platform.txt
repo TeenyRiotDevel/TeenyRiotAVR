@@ -71,9 +71,6 @@ recipe.size.regex.eeprom=^(?:\.eeprom)\s+([0-9]+).*
 # base path for the hacked version of avrdude
 tools.avrdude.path={runtime.platform.path}/tools/avrdude
 
-# hacked avrdude for linux: YOU NEED TO PUT THE HACKED AVRDUDE + CONFFILE HERE YOURSELF!!!
-# --> download and compile avrdude 6.0rc1 from source with the hacked usbasp.c file which you'll find in the patch folder
-
 tools.avrdude.cmd.path={path}/{runtime.os}/avrdude
 tools.avrdude.config.path={path}/{runtime.os}/avrdude.conf
 
@@ -96,3 +93,14 @@ tools.avrdude.upload.params.verbose=-v
 tools.avrdude.upload.params.quiet=-v
 
 tools.avrdude.upload.pattern="{cmd.path}" "-C{config.path}" {upload.verbose} -p{build.mcu} -c{upload.protocol} -P{serial.port} -b{upload.speed} -D "-Uflash:w:{build.path}/{build.project_name}.hex:i"
+
+
+#for micronucleus bootloader
+
+tools.micronucleus.cmd.path={runtime.tools.micronucleus.path}/launcher
+
+tools.micronucleus.upload.params.verbose=
+tools.micronucleus.upload.params.quiet=
+#tools.micronucleus.upload.pattern="{cmd.path}" --run --timeout 60 "{build.path}/{build.project_name}.hex"
+tools.micronucleus.upload.pattern="{cmd.path}" -cdigispark --timeout 60 -Uflash:w:{build.path}/{build.project_name}.hex:i
+
