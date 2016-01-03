@@ -1,3 +1,6 @@
 [submodule "avr/libraries/TeenyMidi"]
 	path = avr/libraries/TeenyMidi
-	url = git@github.com:TeenyRiotDevel/TeenyMidi.git
+	url = git@github.com:TeenyRiotAddons/TeenyMidi.git
+[submodule "avr/libraries/TeenyKeyboard"]
+	path = avr/libraries/TeenyKeyboard
+	url = git@github.com:TeenyRiotAddons/TeenyKeyboard.git
