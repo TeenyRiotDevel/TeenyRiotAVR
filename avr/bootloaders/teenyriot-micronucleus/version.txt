@@ -1,0 +1,15 @@
+commit 2e7281950950ec454de7e0c2fbd56dccb65f2f1b
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:47:59 2016 +0700
+
+    add teenyriot config
+commit 2e7281950950ec454de7e0c2fbd56dccb65f2f1b
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:47:59 2016 +0700
+
+    add teenyriot config
+commit 6ede2b05240c0d311634502ea8f6b330af9027ec
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:56:32 2016 +0700
+
+    build tools

@@ -1,0 +1,15 @@
+commit faaee326e8465cda43cd04db904199d067dc494a
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:24:54 2016 +0700
+
+    first commit
+commit faaee326e8465cda43cd04db904199d067dc494a
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:24:54 2016 +0700
+
+    first commit
+commit 40a1609512e5c2d91fd82d7aab33f919b46b042f
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:57:01 2016 +0700
+
+    ignore compiled
