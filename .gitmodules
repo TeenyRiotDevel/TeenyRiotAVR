@@ -1,0 +1,3 @@
+[submodule "avr/libraries/TeenyMidi"]
+	path = avr/libraries/TeenyMidi
+	url = git@github.com:TeenyRiotDevel/TeenyMidi.git
