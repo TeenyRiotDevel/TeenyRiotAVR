@@ -1,38 +1,45 @@
+menu.bootloader=Bootloader
 
 ##############################################################
 
-teenyriot-usbtiny.name=TeenyRiot (USBTiny)
-teenyriot-usbtiny.upload.protocol=usbasp
-teenyriot-usbtiny.upload.maximum_size=5375
-teenyriot-usbtiny.upload.speed=19200
-teenyriot-usbtiny.upload.disable_flushing=true
-teenyriot-usbtiny.upload.tool=avrdude
-teenyriot-usbtiny.bootloader.low_fuses=0xE1
-teenyriot-usbtiny.bootloader.high_fuses=0x5D
-teenyriot-usbtiny.bootloader.extended_fuses=0xFE
-teenyriot-usbtiny.bootloader.file=teenyriot-usbtiny/teenyriot-usbtiny.hex
-teenyriot-usbtiny.bootloader.tool=avrdude
-teenyriot-usbtiny.build.mcu=attiny85
-teenyriot-usbtiny.build.f_cpu=16500000L
-teenyriot-usbtiny.build.core=teenyriot-core
-teenyriot-usbtiny.build.variant=teenyriot
-teenyriot-usbtiny.build.board=AVR_TEENYRIOT_USBTINY
+teenyriotusbtiny.name=TeenyRiot
+teenyriotusbtiny.upload.protocol=usbasp
+teenyriotusbtiny.upload.maximum_size=5375
+teenyriotusbtiny.upload.speed=19200
+teenyriotusbtiny.upload.disable_flushing=true
+teenyriotusbtiny.upload.tool=avrdude
+teenyriotusbtiny.build.mcu=attiny85
+teenyriotusbtiny.build.f_cpu=16500000L
+teenyriotusbtiny.build.core=teenyriot-core
+teenyriotusbtiny.build.variant=teenyriot
+teenyriotusbtiny.build.board=AVR_TEENYRIOT
 
 ##############################################################
 
-teenyriot-micronucleus.name=TeenyRiot (Micronucleus)
-teenyriot-micronucleus.upload.protocol=usb
-teenyriot-micronucleus.upload.maximum_size=5375
-teenyriot-micronucleus.upload.speed=19200
-teenyriot-micronucleus.upload.disable_flushing=true
-teenyriot-micronucleus.upload.tool=micronucleus
-teenyriot-micronucleus.bootloader.low_fuses=0xE1
-teenyriot-micronucleus.bootloader.high_fuses=0x5D
-teenyriot-micronucleus.bootloader.extended_fuses=0xFE
-teenyriot-micronucleus.bootloader.file=teenyriot-micronucleus/teenyriot-micronucleus.hex
-teenyriot-micronucleus.bootloader.tool=avrdude
-teenyriot-micronucleus.build.mcu=attiny85
-teenyriot-micronucleus.build.f_cpu=16500000L
-teenyriot-micronucleus.build.core=teenyriot-core
-teenyriot-micronucleus.build.variant=teenyriot
-teenyriot-micronucleus.build.board=AVR_TEENYRIOT_MICRONUCLEUS
+teenyriotusbtiny.menu.bootloader.usbtiny=USBTiny
+teenyriotusbtiny.menu.bootloader.usbtiny.upload.protocol=usbasp
+teenyriotusbtiny.menu.bootloader.usbtiny.upload.maximum_size=5375
+teenyriotusbtiny.menu.bootloader.usbtiny.upload.speed=19200
+teenyriotusbtiny.menu.bootloader.usbtiny.upload.disable_flushing=true
+teenyriotusbtiny.menu.bootloader.usbtiny.upload.tool=avrdude
+
+teenyriotusbtiny.menu.bootloader.usbtiny.bootloader.low_fuses=0xE1
+teenyriotusbtiny.menu.bootloader.usbtiny.bootloader.high_fuses=0x5D
+teenyriotusbtiny.menu.bootloader.usbtiny.bootloader.extended_fuses=0xFE
+teenyriotusbtiny.menu.bootloader.usbtiny.bootloader.file=teenyriot-usbtiny/teenyriot-usbtiny.hex
+teenyriotusbtiny.menu.bootloader.usbtiny.bootloader.tool=arduino:avrdude
+
+##############################################################
+
+teenyriotusbtiny.menu.bootloader.micronucleus=Micronucleus
+teenyriotusbtiny.menu.bootloader.micronucleus.upload.protocol=usb
+teenyriotusbtiny.menu.bootloader.micronucleus.upload.maximum_size=5375
+teenyriotusbtiny.menu.bootloader.micronucleus.upload.speed=19200
+teenyriotusbtiny.menu.bootloader.micronucleus.upload.disable_flushing=true
+teenyriotusbtiny.menu.bootloader.micronucleus.upload.tool=micronucleus
+
+teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.low_fuses=0xE1
+teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.high_fuses=0x5D
+teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.extended_fuses=0xFE
+teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.file=teenyriot-micronucleus/teenyriot-micronucleus.hex
+teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.tool=arduino:avrdude
