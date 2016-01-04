@@ -7,3 +7,6 @@
 [submodule "avr/libraries/TeenyMouse"]
 	path = avr/libraries/TeenyMouse
 	url = https://github.com/TeenyRiotAddons/TeenyMouse.git
+[submodule "avr/libraries/TeenySerial"]
+	path = avr/libraries/TeenySerial
+	url = https://badgeek@github.com/TeenyRiotAddons/TeenySerial.git
