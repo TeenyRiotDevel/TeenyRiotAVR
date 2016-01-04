@@ -4,3 +4,6 @@
 [submodule "avr/libraries/TeenyKeyboard"]
 	path = avr/libraries/TeenyKeyboard
 	url = git@github.com:TeenyRiotAddons/TeenyKeyboard.git
+[submodule "avr/libraries/TeenyMouse"]
+	path = avr/libraries/TeenyMouse
+	url = https://github.com/TeenyRiotAddons/TeenyMouse.git
