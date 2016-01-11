@@ -1,4 +1,5 @@
 menu.bootloader=Bootloader
+menu.core=Core
 
 ##############################################################
 
@@ -16,7 +17,7 @@ teenyriotusbtiny.build.board=AVR_TEENYRIOT
 
 ##############################################################
 
-teenyriotusbtiny.menu.bootloader.usbtiny=USBTiny
+teenyriotusbtiny.menu.bootloader.usbtiny=USBTiny (default)
 teenyriotusbtiny.menu.bootloader.usbtiny.upload.protocol=usbasp
 teenyriotusbtiny.menu.bootloader.usbtiny.upload.maximum_size=5375
 teenyriotusbtiny.menu.bootloader.usbtiny.upload.speed=19200
@@ -43,3 +44,14 @@ teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.high_fuses=0x5D
 teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.extended_fuses=0xFE
 teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.file=teenyriot-micronucleus/teenyriot-micronucleus.hex
 teenyriotusbtiny.menu.bootloader.micronucleus.bootloader.tool=arduino:avrdude
+
+###############################################################
+
+teenyriotusbtiny.menu.core.teenyriot=Teenyriot (default)
+teenyriotusbtiny.menu.core.teenyriot.core=teenyriot-core
+teenyriotusbtiny.menu.core.teenyriot.variant=teenyriot
+
+teenyriotusbtiny.menu.core.babygnusbuino=Babygnusbuino
+teenyriotusbtiny.menu.core.babygnusbuino.core=babygnusbuino-core
+teenyriotusbtiny.menu.core.babygnusbuino.variant=babygnusbuino
+
