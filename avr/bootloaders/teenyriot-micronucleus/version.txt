@@ -13,3 +13,18 @@ Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
 Date:   Sun Jan 3 09:56:32 2016 +0700
 
     build tools
+commit 6ede2b05240c0d311634502ea8f6b330af9027ec
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:56:32 2016 +0700
+
+    build tools
+commit 6ede2b05240c0d311634502ea8f6b330af9027ec
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sun Jan 3 09:56:32 2016 +0700
+
+    build tools
+commit 00a11fbb326c07004ae644c73f35da770f487417
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sat Jan 30 15:03:29 2016 +0700
+
+    always bootload
