@@ -13,3 +13,8 @@ Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
 Date:   Sun Jan 3 09:57:01 2016 +0700
 
     ignore compiled
+commit 267b46643e870d83c2ce30444459f152d328fc9f
+Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
+Date:   Sat Jan 30 11:54:47 2016 +0700
+
+    make port compatible with teenyriot
