@@ -10,3 +10,6 @@
 [submodule "avr/libraries/TeenySerial"]
 	path = avr/libraries/TeenySerial
 	url = https://badgeek@github.com/TeenyRiotAddons/TeenySerial.git
+[submodule "avr/libraries/Nokia5110LCD"]
+	path = avr/libraries/Nokia5110LCD
+	url = https://badgeek@github.com/ATtinyTeenageRiot/Nokia5110LCD.git
