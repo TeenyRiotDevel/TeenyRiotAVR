@@ -13,3 +13,6 @@
 [submodule "avr/libraries/Nokia5110LCD"]
 	path = avr/libraries/Nokia5110LCD
 	url = https://badgeek@github.com/ATtinyTeenageRiot/Nokia5110LCD.git
+[submodule "avr/libraries/examples/TeenyRiotExamples"]
+	path = avr/libraries/examples/TeenyRiotExamples
+	url = https://badgeek@github.com/TeenyRiot/Examples.git
