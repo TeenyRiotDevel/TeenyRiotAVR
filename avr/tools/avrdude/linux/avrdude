@@ -8,4 +8,4 @@ cat << "asciiart"
                        /____/                           /____/"
 asciiart
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-LD_PRELOAD="$DIR/libusb-0.1.so.4 $DIR/libncurses.so.5" $DIR/avrdude_bin "$@"
+LD_PRELOAD="$DIR/libreadline.so.6 $DIR/libusb-1.0.so.0 $DIR/libusb-0.1.so.4 $DIR/libncurses.so.5" $DIR/avrdude_bin "$@"
