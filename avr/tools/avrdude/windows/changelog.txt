@@ -1,7 +1,5 @@
-commit b6d4316ecf174a3fa6b8ca62a9cfd1ae9b05afb8
+commit fa58e2645619e9d1b94dc19e07806317515d1628
 Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
-Date:   Mon Mar 14 10:03:04 2016 +0100
+Date:   Mon Mar 14 15:10:56 2016 +0100
 
-    fix buffer bugs, fix usb open on osx add ascii art
-    
-    ascii to c http://tomeko.net/online_tools/cpp_text_escape.php?lang=en
+    fix time bug on linux
