@@ -16,3 +16,6 @@
 [submodule "avr/libraries/TeenyRiotExamples"]
 	path = avr/libraries/TeenyRiotExamples
 	url = https://badgeek@github.com/TeenyRiot/Examples.git
+[submodule "avr/libraries/TeenyTouch"]
+	path = avr/libraries/TeenyTouch
+	url = https://badgeek@github.com/TeenyRiotAddons/TeenyTouch.git
