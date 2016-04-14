@@ -1,20 +1,5 @@
-commit faaee326e8465cda43cd04db904199d067dc494a
+commit 2ee312b5e147d64cc515ce2ac2c45973f3e4295d
 Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
-Date:   Sun Jan 3 09:24:54 2016 +0700
+Date:   Wed Mar 16 14:42:39 2016 +0100
 
-    first commit
-commit faaee326e8465cda43cd04db904199d067dc494a
-Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
-Date:   Sun Jan 3 09:24:54 2016 +0700
-
-    first commit
-commit 40a1609512e5c2d91fd82d7aab33f919b46b042f
-Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
-Date:   Sun Jan 3 09:57:01 2016 +0700
-
-    ignore compiled
-commit 267b46643e870d83c2ce30444459f152d328fc9f
-Author: Budi Prakosa a.k.a Iyok <iyok@deadmediafm.org>
-Date:   Sat Jan 30 11:54:47 2016 +0700
-
-    make port compatible with teenyriot
+    bootloader wait for 2 secs
