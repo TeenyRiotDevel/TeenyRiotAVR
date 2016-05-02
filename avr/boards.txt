@@ -201,5 +201,7 @@ attinyx4.menu.pinmapping.old=Counterclockwise (like ATTinyCore)
 attinyx4.menu.pinmapping.old.build.variant=tinyX4
 attinyx4.menu.pinmapping.new=Clockwise (like damellis core)
 attinyx4.menu.pinmapping.new.build.variant=tinyX4_reverse
-
+attinyx4.menu.pinmapping.mixtape84=8BitMixtape Attiny84
+attinyx4.menu.pinmapping.mixtape84.build.variant=8bitmixtapeX4
+attinyx4.menu.pinmapping.mixtape84.build.core=arduino:arduino
 
