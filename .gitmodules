@@ -19,6 +19,5 @@
 [submodule "avr/libraries/TeenyTouch"]
 	path = avr/libraries/TeenyTouch
 	url = https://badgeek@github.com/TeenyRiotAddons/TeenyTouch.git
-[submodule "avr/libraries/TeenyRiotSynth"]
-	path = avr/libraries/TeenyRiotSynth
-	url = https://badgeek@github.com/TeenyRiotAddons/TeenySynth.git
+[submodule "avr/libraries/TeenySynth"]
+	path = avr/libraries/TeenySynth
